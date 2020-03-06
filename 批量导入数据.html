@@ -1,0 +1,906 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>批量导入数据</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/批量导入数据/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/批量导入数据/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- 考核对象-导入 (Dynamic Panel) -->
+      <div id="u23860" class="ax_default" data-label="考核对象-导入">
+        <div id="u23860_state0" class="panel_state" data-label="State1">
+          <div id="u23860_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Group) -->
+            <div id="u23861" class="ax_default">
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23862" class="ax_default shape">
+              <div id="u23862_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23863" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23864" class="ax_default label">
+              <div id="u23864_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23865" class="text" style="visibility: visible;">
+                <p><span style="text-decoration:underline;">下载模板</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u23866" class="ax_default image">
+              <img id="u23866_img" class="img " src="images/新建场景-0302/u1590.png"/>
+              <!-- Unnamed () -->
+              <div id="u23867" class="text" style="display: none; visibility: hidden">
+                <p><span style="color:#333333;"></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23868" class="ax_default shape">
+              <div id="u23868_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23869" class="text" style="visibility: visible;">
+                <p><span>导入考核对象</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u23870" class="ax_default _图片">
+              <img id="u23870_img" class="img " src="images/维护标签内容/u14023.png"/>
+              <!-- Unnamed () -->
+              <div id="u23871" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23872" class="ax_default label">
+              <div id="u23872_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23873" class="text" style="visibility: visible;">
+                <p><span style="text-decoration:underline;">导入</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u23874" class="ax_default _图片">
+              <img id="u23874_img" class="img " src="images/维护标签内容/u14027.png"/>
+              <!-- Unnamed () -->
+              <div id="u23875" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 导入中 (Dynamic Panel) -->
+      <div id="u23876" class="ax_default" data-label="导入中">
+        <div id="u23876_state0" class="panel_state" data-label="导入中">
+          <div id="u23876_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23877" class="ax_default shape">
+              <div id="u23877_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23878" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u23879" class="ax_default">
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u23880" class="ax_default shape">
+                <div id="u23880_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u23881" class="text" style="visibility: visible;">
+                  <p><span>正在导入，请耐心等待...</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u23882" class="ax_default image">
+                <img id="u23882_img" class="img " src="images/新建场景-0302/u1590.png"/>
+                <!-- Unnamed () -->
+                <div id="u23883" class="text" style="display: none; visibility: hidden">
+                  <p><span style="color:#333333;"></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u23884" class="ax_default image">
+                <img id="u23884_img" class="img " src="images/维护标签内容/u14037.png"/>
+                <!-- Unnamed () -->
+                <div id="u23885" class="text" style="display: none; visibility: hidden">
+                  <p><span></span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u23886" class="ax_default">
+
+              <!-- Unnamed (Ellipse) -->
+              <div id="u23887" class="ax_default shape">
+                <img id="u23887_img" class="img " src="images/维护标签内容/u14040.png"/>
+                <!-- Unnamed () -->
+                <div id="u23888" class="text" style="visibility: visible;">
+                  <p><span>i</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u23889" class="ax_default label1">
+                <div id="u23889_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u23890" class="text" style="visibility: visible;">
+                  <p><span>请勿进行其他操作，以免影响导入结果</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u23891" class="ax_default">
+
+              <!-- Unnamed (Group) -->
+              <div id="u23892" class="ax_default">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u23893" class="ax_default paragraph">
+                  <div id="u23893_div" class=""></div>
+                  <!-- Unnamed () -->
+                  <div id="u23894" class="text" style="visibility: visible;">
+                    <p><span>《 导入模版 》</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u23895" class="ax_default paragraph">
+                  <div id="u23895_div" class=""></div>
+                  <!-- Unnamed () -->
+                  <div id="u23896" class="text" style="visibility: visible;">
+                    <p><span>正在导入，请耐心等待...</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Group) -->
+                <div id="u23897" class="ax_default">
+                </div>
+
+                <!-- Unnamed (Image) -->
+                <div id="u23898" class="ax_default image">
+                  <img id="u23898_img" class="img " src="images/维护标签内容/u14051.png"/>
+                  <!-- Unnamed () -->
+                  <div id="u23899" class="text" style="display: none; visibility: hidden">
+                    <p><span style="color:#333333;"></span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (Group) -->
+              <div id="u23900" class="ax_default">
+
+                <!-- Unnamed (Group) -->
+                <div id="u23901" class="ax_default">
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u23902" class="ax_default shape">
+                    <div id="u23902_div" class=""></div>
+                    <!-- Unnamed () -->
+                    <div id="u23903" class="text" style="display: none; visibility: hidden">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u23904" class="ax_default shape">
+                    <div id="u23904_div" class=""></div>
+                    <!-- Unnamed () -->
+                    <div id="u23905" class="text" style="display: none; visibility: hidden">
+                      <p><span></span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u23906" class="ax_default">
+
+              <!-- Unnamed (Group) -->
+              <div id="u23907" class="ax_default">
+
+                <!-- Unnamed (Image) -->
+                <div id="u23908" class="ax_default image">
+                  <img id="u23908_img" class="img " src="images/新建场景-0302/u1211.png"/>
+                  <!-- Unnamed () -->
+                  <div id="u23909" class="text" style="display: none; visibility: hidden">
+                    <p><span style="color:#333333;"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u23876_state1" class="panel_state" data-label="导入失败" style="display: none; visibility: hidden;">
+          <div id="u23876_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23910" class="ax_default shape">
+              <div id="u23910_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23911" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u23912" class="ax_default">
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u23913" class="ax_default shape">
+                <div id="u23913_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u23914" class="text" style="visibility: visible;">
+                  <p style="font-size:18px;line-height:28px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-size:16px;color:rgba(0, 0, 0, 0.647058823529412);">导入失败！</span><span style="font-family:'Helvetica';color:#666666;"></span></p><p style="font-size:14px;line-height:26px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:rgba(0, 0, 0, 0.427450980392157);">第1行第5列，出生年月格式有误！</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:rgba(0, 0, 0, 0.427450980392157);">第2行第7列，职务级别有误！</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:rgba(0, 0, 0, 0.427450980392157);">第3行第12列，任职时间格式有误！</span><span style="font-family:'Helvetica';color:#999999;"></span></p><p style="font-size:14px;"><span style="font-family:'Helvetica';color:#999999;"><br></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u23915" class="ax_default image">
+                <img id="u23915_img" class="img " src="images/新建场景-0302/u1590.png"/>
+                <!-- Unnamed () -->
+                <div id="u23916" class="text" style="display: none; visibility: hidden">
+                  <p><span style="color:#333333;"></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u23917" class="ax_default image">
+                <img id="u23917_img" class="img " src="images/维护标签内容/u14070.png"/>
+                <!-- Unnamed () -->
+                <div id="u23918" class="text" style="display: none; visibility: hidden">
+                  <p><span></span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23919" class="ax_default shape">
+              <div id="u23919_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23920" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) [footnote] -->
+            <div id="u23919_ann" class="annotation"></div>
+
+            <!-- Unnamed (Ellipse) -->
+            <div id="u23921" class="ax_default shape">
+              <img id="u23921_img" class="img " src="images/维护标签内容/u14040.png"/>
+              <!-- Unnamed () -->
+              <div id="u23922" class="text" style="visibility: visible;">
+                <p><span>i</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23923" class="ax_default label1">
+              <div id="u23923_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23924" class="text" style="visibility: visible;">
+                <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:rgba(0, 0, 0, 0.427450980392157);">第01行第05列，出生年月格式有误！</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:rgba(0, 0, 0, 0.427450980392157);">第02行第07列，职务级别有误！</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:rgba(0, 0, 0, 0.427450980392157);">第03行第12列，任职时间格式有误！</span><span style="font-family:'Helvetica';color:#999999;"></span></p><p><span style="font-family:'Helvetica';color:#999999;"><br></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u23925" class="ax_default">
+
+              <!-- Unnamed (Group) -->
+              <div id="u23926" class="ax_default">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u23927" class="ax_default paragraph">
+                  <div id="u23927_div" class=""></div>
+                  <!-- Unnamed () -->
+                  <div id="u23928" class="text" style="visibility: visible;">
+                    <p><span>导入失败</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Group) -->
+                <div id="u23929" class="ax_default">
+                </div>
+
+                <!-- Unnamed (Image) -->
+                <div id="u23930" class="ax_default image">
+                  <img id="u23930_img" class="img " src="images/维护标签内容/u14083.png"/>
+                  <!-- Unnamed () -->
+                  <div id="u23931" class="text" style="display: none; visibility: hidden">
+                    <p><span style="color:#333333;"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u23932" class="ax_default">
+
+              <!-- Unnamed (Group) -->
+              <div id="u23933" class="ax_default">
+
+                <!-- Unnamed (Image) -->
+                <div id="u23934" class="ax_default image">
+                  <img id="u23934_img" class="img " src="images/新建场景-0302/u1211.png"/>
+                  <!-- Unnamed () -->
+                  <div id="u23935" class="text" style="display: none; visibility: hidden">
+                    <p><span style="color:#333333;"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u23876_state2" class="panel_state" data-label="导入成功" style="display: none; visibility: hidden;">
+          <div id="u23876_state2_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23936" class="ax_default shape">
+              <div id="u23936_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23937" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23938" class="ax_default shape">
+              <div id="u23938_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23939" class="text" style="visibility: visible;">
+                <p><span>导入成功</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u23940" class="ax_default image">
+              <img id="u23940_img" class="img " src="images/新建场景-0302/u1590.png"/>
+              <!-- Unnamed () -->
+              <div id="u23941" class="text" style="display: none; visibility: hidden">
+                <p><span style="color:#333333;"></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u23942" class="ax_default image">
+              <img id="u23942_img" class="img " src="images/维护标签内容/u14095.png"/>
+              <!-- Unnamed () -->
+              <div id="u23943" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23944" class="ax_default shape">
+              <div id="u23944_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23945" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u23946" class="ax_default">
+
+              <!-- Unnamed (Group) -->
+              <div id="u23947" class="ax_default">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u23948" class="ax_default paragraph">
+                  <div id="u23948_div" class=""></div>
+                  <!-- Unnamed () -->
+                  <div id="u23949" class="text" style="visibility: visible;">
+                    <p><span>导入成功</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Group) -->
+                <div id="u23950" class="ax_default">
+                </div>
+
+                <!-- Unnamed (Image) -->
+                <div id="u23951" class="ax_default image">
+                  <img id="u23951_img" class="img " src="images/维护标签内容/u14104.png"/>
+                  <!-- Unnamed () -->
+                  <div id="u23952" class="text" style="display: none; visibility: hidden">
+                    <p><span style="color:#333333;"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u23953" class="ax_default">
+
+              <!-- Unnamed (Group) -->
+              <div id="u23954" class="ax_default">
+
+                <!-- Unnamed (Image) -->
+                <div id="u23955" class="ax_default image">
+                  <img id="u23955_img" class="img " src="images/新建场景-0302/u1211.png"/>
+                  <!-- Unnamed () -->
+                  <div id="u23956" class="text" style="display: none; visibility: hidden">
+                    <p><span style="color:#333333;"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u23957" class="ax_default">
+
+              <!-- 上一步  下一步 (Group) -->
+              <div id="u23958" class="ax_default" data-label="上一步&nbsp; 下一步">
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u23959" class="ax_default box_1">
+                <div id="u23959_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u23960" class="text" style="visibility: visible;">
+                  <p><span>完 成</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u23961" class="ax_default shape">
+        <div id="u23961_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u23962" class="text" style="visibility: visible;">
+          <p><span>导入考核对象</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) [footnote] -->
+      <div id="u23961_ann" class="annotation"></div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u23963" class="ax_default _图片">
+        <img id="u23963_img" class="img " src="images/批量导入数据/u23963.png"/>
+        <!-- Unnamed () -->
+        <div id="u23964" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) [footnote] -->
+      <div id="u23963_ann" class="annotation"></div>
+
+      <!-- 导入失败 (Dynamic Panel) -->
+      <div id="u23965" class="ax_default" data-label="导入失败">
+        <div id="u23965_state0" class="panel_state" data-label="导入失败">
+          <div id="u23965_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23966" class="ax_default shape">
+              <div id="u23966_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23967" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u23968" class="ax_default">
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u23969" class="ax_default shape">
+                <div id="u23969_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u23970" class="text" style="visibility: visible;">
+                  <p style="font-size:18px;line-height:28px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-size:16px;color:rgba(0, 0, 0, 0.647058823529412);">导入失败！</span><span style="font-family:'Helvetica';color:#666666;"></span></p><p style="font-size:14px;line-height:26px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:rgba(0, 0, 0, 0.427450980392157);">第1行第5列，出生年月格式有误！</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:rgba(0, 0, 0, 0.427450980392157);">第2行第7列，职务级别有误！</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:rgba(0, 0, 0, 0.427450980392157);">第3行第12列，任职时间格式有误！</span><span style="font-family:'Helvetica';color:#999999;"></span></p><p style="font-size:14px;"><span style="font-family:'Helvetica';color:#999999;"><br></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u23971" class="ax_default image">
+                <img id="u23971_img" class="img " src="images/新建场景-0302/u1590.png"/>
+                <!-- Unnamed () -->
+                <div id="u23972" class="text" style="display: none; visibility: hidden">
+                  <p><span style="color:#333333;"></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Image) -->
+              <div id="u23973" class="ax_default image">
+                <img id="u23973_img" class="img " src="images/维护标签内容/u14070.png"/>
+                <!-- Unnamed () -->
+                <div id="u23974" class="text" style="display: none; visibility: hidden">
+                  <p><span></span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23975" class="ax_default shape">
+              <div id="u23975_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23976" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) [footnote] -->
+            <div id="u23975_ann" class="annotation"></div>
+
+            <!-- Unnamed (Ellipse) -->
+            <div id="u23977" class="ax_default shape">
+              <img id="u23977_img" class="img " src="images/维护标签内容/u14040.png"/>
+              <!-- Unnamed () -->
+              <div id="u23978" class="text" style="visibility: visible;">
+                <p><span>i</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23979" class="ax_default label1">
+              <div id="u23979_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23980" class="text" style="visibility: visible;">
+                <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:rgba(0, 0, 0, 0.427450980392157);">第01行第05列，出生年月格式有误！</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:rgba(0, 0, 0, 0.427450980392157);">第02行第07列，职务级别有误！</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';color:rgba(0, 0, 0, 0.427450980392157);">第03行第12列，任职时间格式有误！</span><span style="font-family:'Helvetica';color:#999999;"></span></p><p><span style="font-family:'Helvetica';color:#999999;"><br></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u23981" class="ax_default">
+
+              <!-- Unnamed (Group) -->
+              <div id="u23982" class="ax_default">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u23983" class="ax_default paragraph">
+                  <div id="u23983_div" class=""></div>
+                  <!-- Unnamed () -->
+                  <div id="u23984" class="text" style="visibility: visible;">
+                    <p><span>导入失败</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Group) -->
+                <div id="u23985" class="ax_default">
+                </div>
+
+                <!-- Unnamed (Image) -->
+                <div id="u23986" class="ax_default image">
+                  <img id="u23986_img" class="img " src="images/维护标签内容/u14083.png"/>
+                  <!-- Unnamed () -->
+                  <div id="u23987" class="text" style="display: none; visibility: hidden">
+                    <p><span style="color:#333333;"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u23988" class="ax_default">
+
+              <!-- Unnamed (Group) -->
+              <div id="u23989" class="ax_default">
+
+                <!-- Unnamed (Image) -->
+                <div id="u23990" class="ax_default image">
+                  <img id="u23990_img" class="img " src="images/新建场景-0302/u1211.png"/>
+                  <!-- Unnamed () -->
+                  <div id="u23991" class="text" style="display: none; visibility: hidden">
+                    <p><span style="color:#333333;"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 导入成功 (Dynamic Panel) -->
+      <div id="u23992" class="ax_default" data-label="导入成功">
+        <div id="u23992_state0" class="panel_state" data-label="导入成功">
+          <div id="u23992_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23993" class="ax_default shape">
+              <div id="u23993_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23994" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u23995" class="ax_default shape">
+              <div id="u23995_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u23996" class="text" style="visibility: visible;">
+                <p><span>导入成功</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u23997" class="ax_default image">
+              <img id="u23997_img" class="img " src="images/新建场景-0302/u1590.png"/>
+              <!-- Unnamed () -->
+              <div id="u23998" class="text" style="display: none; visibility: hidden">
+                <p><span style="color:#333333;"></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u23999" class="ax_default image">
+              <img id="u23999_img" class="img " src="images/维护标签内容/u14095.png"/>
+              <!-- Unnamed () -->
+              <div id="u24000" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u24001" class="ax_default shape">
+              <div id="u24001_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u24002" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u24003" class="ax_default">
+
+              <!-- Unnamed (Group) -->
+              <div id="u24004" class="ax_default">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u24005" class="ax_default paragraph">
+                  <div id="u24005_div" class=""></div>
+                  <!-- Unnamed () -->
+                  <div id="u24006" class="text" style="visibility: visible;">
+                    <p><span>导入成功</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Group) -->
+                <div id="u24007" class="ax_default">
+                </div>
+
+                <!-- Unnamed (Image) -->
+                <div id="u24008" class="ax_default image">
+                  <img id="u24008_img" class="img " src="images/维护标签内容/u14104.png"/>
+                  <!-- Unnamed () -->
+                  <div id="u24009" class="text" style="display: none; visibility: hidden">
+                    <p><span style="color:#333333;"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u24010" class="ax_default">
+
+              <!-- Unnamed (Group) -->
+              <div id="u24011" class="ax_default">
+
+                <!-- Unnamed (Image) -->
+                <div id="u24012" class="ax_default image">
+                  <img id="u24012_img" class="img " src="images/新建场景-0302/u1211.png"/>
+                  <!-- Unnamed () -->
+                  <div id="u24013" class="text" style="display: none; visibility: hidden">
+                    <p><span style="color:#333333;"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u24014" class="ax_default">
+
+              <!-- 上一步  下一步 (Group) -->
+              <div id="u24015" class="ax_default" data-label="上一步&nbsp; 下一步">
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u24016" class="ax_default box_1">
+                <div id="u24016_div" class=""></div>
+                <!-- Unnamed () -->
+                <div id="u24017" class="text" style="visibility: visible;">
+                  <p><span>完 成</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u24018" class="ax_default">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u24019" class="ax_default shape">
+          <div id="u24019_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u24020" class="text" style="visibility: visible;">
+            <p><span>导入-弹窗</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Image) -->
+        <div id="u24021" class="ax_default image">
+          <img id="u24021_img" class="img " src="images/新建场景-0302/u1590.png"/>
+          <!-- Unnamed () -->
+          <div id="u24022" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Image) -->
+        <div id="u24023" class="ax_default image">
+          <img id="u24023_img" class="img " src="images/新建场景-0302/u1592.png"/>
+          <!-- Unnamed () -->
+          <div id="u24024" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u24025" class="ax_default">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u24026" class="ax_default shape">
+          <div id="u24026_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u24027" class="text" style="visibility: visible;">
+            <p><span>导入-按钮</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Image) -->
+        <div id="u24028" class="ax_default image">
+          <img id="u24028_img" class="img " src="images/新建场景-0302/u1590.png"/>
+          <!-- Unnamed () -->
+          <div id="u24029" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Image) -->
+        <div id="u24030" class="ax_default image">
+          <img id="u24030_img" class="img " src="images/新建场景-0302/u1592.png"/>
+          <!-- Unnamed () -->
+          <div id="u24031" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u24032" class="ax_default">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u24033" class="ax_default shape">
+          <div id="u24033_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u24034" class="text" style="visibility: visible;">
+            <p><span>导入-步骤</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Image) -->
+        <div id="u24035" class="ax_default image">
+          <img id="u24035_img" class="img " src="images/新建场景-0302/u1590.png"/>
+          <!-- Unnamed () -->
+          <div id="u24036" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Image) -->
+        <div id="u24037" class="ax_default image">
+          <img id="u24037_img" class="img " src="images/新建场景-0302/u1592.png"/>
+          <!-- Unnamed () -->
+          <div id="u24038" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u24039" class="ax_default">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u24040" class="ax_default shape">
+          <div id="u24040_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u24041" class="text" style="visibility: visible;">
+            <p><span>导入-附件模板</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Image) -->
+        <div id="u24042" class="ax_default image">
+          <img id="u24042_img" class="img " src="images/新建场景-0302/u1590.png"/>
+          <!-- Unnamed () -->
+          <div id="u24043" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Image) -->
+        <div id="u24044" class="ax_default image">
+          <img id="u24044_img" class="img " src="images/新建场景-0302/u1592.png"/>
+          <!-- Unnamed () -->
+          <div id="u24045" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
